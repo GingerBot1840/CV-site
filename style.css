@@ -1,0 +1,202 @@
+/* Algemene stijlen */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+/* Navigatiebalk */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    list-style: none;
+    margin: 0;
+    font-size: 1.2em;
+    background-color: #FFA64C;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #FFA64C;
+    padding: 20px 0; /* Voorkomt extra witruimte */
+    margin: 0; /* Verwijdert marges die witte lijnen kunnen veroorzaken */
+    width: 100%; /* Zorgt ervoor dat de header de hele breedte beslaat */
+}
+
+header h1 {
+    font-size: 4em;
+    font-family: "lullabies-regular", sans-serif;
+    color: black;
+    margin: 0; /* Verwijdert ongewenste ruimte boven en onder de tekst */
+}
+
+
+/* Info Section */
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Ensures the section itself is white */
+}
+
+/* Info Container */
+.info-container {
+    display: flex;
+    flex-direction: column; /* Default for mobile */
+    width: 100%;
+}
+
+/* Image Container */
+.info-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-image img {
+    width: 150px; /* Adjust size */
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Text Container */
+.info-text {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Email Link Styling */
+.info-text a {
+    color: #FFA64C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Over Mij Sectie */
+.about-section h2 {
+    text-align: center;
+    background-color: #FFFFFF;
+    font-family: "lullabies-regular", sans-serif;
+    font-size: 2em;
+}
+.about-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.about-box {
+    background-color: #FF8000;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Projecten Sectie */
+.projects-section h2{
+    font-family: "lullabies-regular", sans-serif;
+    font-size: 2em;
+}
+.projects-section {
+    text-align: center;
+    background-color: #FFA64C;
+    padding: 20px 0; /* Voorkomt extra witruimte binnen de sectie */
+    margin: 0; /* Zorgt dat er geen witruimte buiten de sectie ontstaat */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects-section h2 {
+    margin: 0; /* Verwijdert standaard witruimte boven en onder de titel */
+    padding-bottom: 10px; /* Optioneel: Voegt wat ruimte toe voor betere lay-out */
+}
+
+.project-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-links a {
+    display: block;
+    width: 90%;
+    margin: 10px auto; 
+    padding: 12px;
+    background-color: #414141;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+/* Footer */
+footer {
+    background-color: #FFA64C;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0; /* Verwijdert extra ruimte tussen footer en vorige sectie */
+    width: 100%;
+}
+
+/* Responsiveness voor grotere schermen */
+@media (min-width: 768px) {
+    header h1{
+        font-size: 10em;
+    }
+    .about-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 1em;
+    }
+    .about-box {
+        width: 30%;
+    }
+    .project-buttons button {
+        width: auto;
+        margin: 10px;
+    }
+    .info-container {
+        flex-direction: row;
+    }
+    .info-image {
+        background-color: #FF8000;
+        width: 50%;
+    }
+    .info-text {
+        width: 50%;
+        text-align: left;
+    }
+    .projects-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .project-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 1em;
+        font-size: 1.5em;
+    }
+}
