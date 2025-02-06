@@ -27,31 +27,35 @@ nav ul li a {
 header {
     text-align: center;
     background-color: #FFA64C;
-    padding: 20px 0; /* Voorkomt extra witruimte */
-    margin: 0; /* Verwijdert marges die witte lijnen kunnen veroorzaken */
-    width: 100%; /* Zorgt ervoor dat de header de hele breedte beslaat */
+    padding: 20px 0; 
+    margin: 0; 
+    width: 100%;
 }
 
 header h1 {
     font-size: 4em;
     font-family: "lullabies-regular", sans-serif;
     color: black;
-    margin: 0; /* Verwijdert ongewenste ruimte boven en onder de tekst */
+    margin: 0;
 }
 
 
 /* Info Section */
+.info-section h2 {
+    font-family: "lullabies-regular", sans-serif;
+    font-size: 2em;
+}
 .info-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white; /* Ensures the section itself is white */
+    background-color: white;
 }
 
 /* Info Container */
 .info-container {
     display: flex;
-    flex-direction: column; /* Default for mobile */
+    flex-direction: column; 
     width: 100%;
 }
 
@@ -64,7 +68,7 @@ header h1 {
 }
 
 .info-image img {
-    width: 150px; /* Adjust size */
+    width: 150px; 
     max-width: 100%;
     border-radius: 50%;
 }
@@ -115,8 +119,8 @@ header h1 {
 .projects-section {
     text-align: center;
     background-color: #FFA64C;
-    padding: 20px 0; /* Voorkomt extra witruimte binnen de sectie */
-    margin: 0; /* Zorgt dat er geen witruimte buiten de sectie ontstaat */
+    padding: 20px 0; 
+    margin: 0; 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -125,8 +129,8 @@ header h1 {
 }
 
 .projects-section h2 {
-    margin: 0; /* Verwijdert standaard witruimte boven en onder de titel */
-    padding-bottom: 10px; /* Optioneel: Voegt wat ruimte toe voor betere lay-out */
+    margin: 0; 
+    padding-bottom: 10px; 
 }
 
 .project-links {
@@ -154,7 +158,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin: 0; /* Verwijdert extra ruimte tussen footer en vorige sectie */
+    margin: 0; 
     width: 100%;
 }
 
