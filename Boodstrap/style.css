@@ -1,0 +1,41 @@
+/*
+Font-sizes in em/rem
+Element width in % of vw
+left, right margin en padding %
+flexbox
+*/
+
+/* ---- FONTS ---- */
+/* 
+font-family:;
+font-family:;
+font-family:;
+*/
+
+/* ---- COLORS ---- */
+/* 
+color:;
+color:;
+color:;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+@media(min-width: 768px){
+    .news-impunt{
+        width: 50%;
+    }
+}

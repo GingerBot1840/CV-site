@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Toets</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">CRL</div>
+        <nav class="navbar">
+            <button id="menu-toggle" aria-controls="primary-menu" aria-expanded="false">☰ Menu</button>
+            <ul id="primary-menu" class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="text-content">
+                <h1>Responsive layouts <span class="color">don't have to be a struggle</span></h1>
+            </div>
+            <div class="text-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>I WANT TO LEARN</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Mobile-first</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="feature">
+                <h3>Efficient</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="feature">
+                <h3>Done right</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </section>
+
+        <section class="content-with-image">
+            <div class="content-img">
+                <div class="text">
+                <h2>It doesn’t have to be so hard</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="image-side">
+                <img
+                    sizes="(max-width: 1207px) 100vw, 1207px"
+                    srcset="
+                    img/the-image_gztuay_c_scale,w_200.jpg 200w,
+                    img/the-image_gztuay_c_scale,w_608.jpg 608w,
+                    img/the-image_gztuay_c_scale,w_881.jpg 881w,
+                    img/the-image_gztuay_c_scale,w_1124.jpg 1124w,
+                    img/the-image_gztuay_c_scale,w_1207.jpg 1207w"
+                    src="the-image_gztuay_c_scale,w_1207.jpg"
+                    alt="">
+                </div>
+                <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="text-side">
+                <h3>Break it down</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="text-side">
+                <h3>Work your way up</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="text-side">
+                <h3>Blank</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <h2 class="footer-heading">Just scratching the surface</h2>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About our company</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Getting around</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Other things</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>consectetur</p>
+                </div>
+                <div class="footer-column">
+                    <h3>And more</h3>
+                    <p>Lorem ipsum</p>
+                    <p>dolor</p>
+                    <p>sit amet</p>
+                    <p>consectetur</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/scripts.js"></script> 
+</body>
+</html>
