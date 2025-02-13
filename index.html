@@ -21,7 +21,16 @@
     <section id="info" class="info-section"> 
         <div class="info-container">
             <div class="info-image">
-                <img src="IMG/PFP.jpg" alt="Thomas Jacobs">
+                <img
+                    sizes="(max-width: 1400px) 100vw, 1400px"
+                    srcset="
+                    IMG/PFP,200.jpg,
+                    IMG/PFP,w_666.jpg 666w,
+                    IMG/PFP,w_941.jpg 941w,
+                    IMG/PFP,w_1232.jpg 1232w,
+                    IMG/PFP,w_1400.jpg 1400w"
+                    src="IMG/PFP,w_1400.jpg"
+                    alt="">
             </div>
             <div class="info-text">
                 <h2>Info Over Mij</h2>
