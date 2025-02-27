@@ -27,16 +27,16 @@ nav ul li a {
 header {
     text-align: center;
     background-color: #FFA64C;
-    padding: 20px 0; /* Voorkomt extra witruimte */
-    margin: 0; /* Verwijdert marges die witte lijnen kunnen veroorzaken */
-    width: 100%; /* Zorgt ervoor dat de header de hele breedte beslaat */
+    padding: 20px 0; 
+    margin: 0; 
+    width: 100%; 
 }
 
 header h1 {
     font-size: 4em;
     font-family: "lullabies-regular", sans-serif;
     color: black;
-    margin: 0; /* Verwijdert ongewenste ruimte boven en onder de tekst */
+    margin: 0;
 }
 
 
@@ -45,7 +45,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white; /* Ensures the section itself is white */
+    background-color: white; 
 }
 .info-text h2 {
     font-family: "lullabies-regular", sans-serif;
@@ -57,7 +57,7 @@ header h1 {
 /* Info Container */
 .info-container {
     display: flex;
-    flex-direction: column; /* Default for mobile */
+    flex-direction: column; 
     width: 100%;
 }
 
@@ -70,7 +70,7 @@ header h1 {
 }
 
 .info-image img {
-    width: 150px; /* Adjust size */
+    width: 150px; 
     max-width: 100%;
     border-radius: 50%;
 }
@@ -95,6 +95,7 @@ header h1 {
     background-color: #FFFFFF;
     font-family: "lullabies-regular", sans-serif;
     font-size: 2em;
+    margin: 20px;
 }
 .about-container {
     text-align: center;
@@ -121,8 +122,8 @@ header h1 {
 .projects-section {
     text-align: center;
     background-color: #FFA64C;
-    padding: 20px 0; /* Voorkomt extra witruimte binnen de sectie */
-    margin: 0; /* Zorgt dat er geen witruimte buiten de sectie ontstaat */
+    padding: 20px 0; 
+    margin: 0; 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -131,8 +132,8 @@ header h1 {
 }
 
 .projects-section h2 {
-    margin: 0; /* Verwijdert standaard witruimte boven en onder de titel */
-    padding-bottom: 10px; /* Optioneel: Voegt wat ruimte toe voor betere lay-out */
+    margin: 0; 
+    padding-bottom: 10px; 
 }
 
 .project-links {
@@ -150,7 +151,7 @@ header h1 {
     font-weight: bold;
     text-align: center;
     border-radius: 10px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-decoration: none;
     transition: 0.3s ease-in-out;
 }
@@ -160,14 +161,19 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin: 0; /* Verwijdert extra ruimte tussen footer en vorige sectie */
+    margin: 0; 
     width: 100%;
 }
 
 /* Responsiveness voor grotere schermen */
+@media (max-width: 767px) {
+    #btn1 br{
+        display: none;
+    }
+}
 @media (min-width: 768px) {
     header h1{
-        font-size: 16em;
+        font-size: 11em;
     }
     .about-container {
         display: flex;
@@ -176,6 +182,7 @@ footer {
     }
     .about-box {
         width: 30%;
+        font-size: 1.2em;
     }
     .project-buttons button {
         width: auto;
@@ -205,5 +212,43 @@ footer {
         gap: 1em;
         font-size: 1.5em;
     }
+    .project-links a{
+        font-size: 1em;
+    }
+    .projects-section h2 {
+        font-size: 3em;
+    }
+    .about-section h2 {
+        font-size: 3em;
+    }
+    .info-section h2 {
+        font-size: 3em;
+    }
+    .info-text p{
+        font-size: 1em;
+    }
+    
 }
-
+@media (min-width: 900px) {
+    header h1{
+        font-size: 14.1em;
+    }
+    .project-links a{
+        font-size: 1.2em;
+    }
+    .about-box{
+        font-size: 1.5em;
+    }
+    .projects-section h2 {
+        font-size: 4em;
+    }
+    .about-section h2 {
+        font-size: 4em;
+    }
+    .info-section h2 {
+        font-size: 4em;
+    }
+    .info-text p{
+        font-size: 1.2em;
+    }
+}
