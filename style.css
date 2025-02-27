@@ -11,7 +11,7 @@ body {
 nav ul {
     display: flex;
     justify-content: space-around;
-    padding: 15px 0;
+    padding: 0.9375rem 0;
     list-style: none;
     margin: 0;
     font-size: 1.2em;
@@ -27,7 +27,7 @@ nav ul li a {
 header {
     text-align: center;
     background-color: #FFA64C;
-    padding: 20px 0; 
+    padding: 1.25rem 0; 
     margin: 0; 
     width: 100%; 
 }
@@ -66,11 +66,11 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .info-image img {
-    width: 150px; 
+    width: 9.375rem; 
     max-width: 100%;
     border-radius: 50%;
 }
@@ -78,7 +78,7 @@ header h1 {
 /* Text Container */
 .info-text {
     background-color: white;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
 }
 
@@ -95,11 +95,11 @@ header h1 {
     background-color: #FFFFFF;
     font-family: "lullabies-regular", sans-serif;
     font-size: 2em;
-    margin: 20px;
+    margin: 1.25rem;
 }
 .about-container {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #FFFFFF;
 }
 .about-box {
@@ -107,11 +107,11 @@ header h1 {
     color: white;
     font-weight: bold;
     width: 90%;
-    padding: 15px;
-    margin: 10px auto;
+    padding: 0.9375rem;
+    margin: 0.625rem auto;
     text-align: center;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.3125rem;
+    box-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 /* Projecten Sectie */
@@ -122,7 +122,7 @@ header h1 {
 .projects-section {
     text-align: center;
     background-color: #FFA64C;
-    padding: 20px 0; 
+    padding: 1.25rem 0; 
     margin: 0; 
     width: 100%;
     display: flex;
@@ -133,24 +133,24 @@ header h1 {
 
 .projects-section h2 {
     margin: 0; 
-    padding-bottom: 10px; 
+    padding-bottom: 0.625rem; 
 }
 
 .project-links {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .project-links a {
     display: block;
     width: 90%;
-    margin: 10px auto; 
-    padding: 12px;
+    margin: 0.625rem auto; 
+    padding: 0.75rem;
     background-color: #414141;
     color: white;
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     font-size: 1.3em;
     text-decoration: none;
     transition: 0.3s ease-in-out;
@@ -160,7 +160,7 @@ footer {
     background-color: #FFA64C;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     margin: 0; 
     width: 100%;
 }
@@ -250,5 +250,8 @@ footer {
     }
     .info-text p{
         font-size: 1.2em;
+    }
+    .info-image img{
+        width: 12.5rem;
     }
 }
